@@ -2,18 +2,6 @@
 
 **Cordova / PhoneGap Plugin to allow 'Arbitrary Loads' by adding a declaration to the Info.plist file to bypass the iOS 9 App Transport Security**
 
-## Install
-
-#### Latest published version on npm (with Cordova CLI >= 5.0.0)
-
-```
-cordova plugin add cordova-plugin-transport-security
-```
-
-#### Latest version from GitHub
-
-```
-cordova plugin add https://github.com/leecrossley/cordova-plugin-transport-security.git
 ```
 
 ## Apple guidance
@@ -29,7 +17,3 @@ It's important to note that this does not impact apps built with Xcode < 7 runni
 ## Platforms
 
 Applies to iOS (9+) only.
-
-## License
-
-[MIT License](http://ilee.mit-license.org)
