@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<plugin id="cordova-plugin-transport-security" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
-    <name>App Transport Security</name>
+<plugin id="cordova-plugin-fg-config" version="0.1.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>FreshGrade Config</name>
     <author>FreshGrade</author>
-    <description>Cordova / PhoneGap Plugin to allow 'Arbitrary Loads' by adding a declaration to the Info.plist file to bypass the iOS 9 App Transport Security</description>
+    <description>Cordova / PhoneGap Plugin to allow 'Arbitrary Loads' by adding a declaration to the Info.plist file to bypass the iOS 9 App Transport Security. Also adds required iOS 10 device permissions.</description>
     <keywords>cordova, ios, app, security, transport, http, https, ats, ssl, tls, nsapptransportsecurity, nsallowsarbitraryloads</keywords>
     <license>MIT</license>
     <engines>
@@ -50,6 +50,15 @@
                     </dict>
                 </dict>
             </dict>
+        </config-file>
+        <config-file platform="ios" parent="NSCameraUsageDescription" target="*-Info.plist">
+            <string>This lets you take photos and videos and add them to your FreshGrade portfolio.</string>
+        </config-file>
+        <config-file platform="ios" parent="NSPhotoLibraryUsageDescription" target="*-Info.plist">
+            <string>This lets you add photos and videos to your FreshGrade portfolio.</string>
+        </config-file>
+        <config-file platform="ios" parent="NSMicrophoneUsageDescription" target="*-Info.plist">
+            <string>This lets you record audio to your FreshGrade portfolio.</string>
         </config-file>
     </platform>
 </plugin>
