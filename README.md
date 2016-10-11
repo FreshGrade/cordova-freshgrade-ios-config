@@ -17,5 +17,4 @@ Source: [iOS Developer Library](https://developer.apple.com/library/prerelease/i
 It's important to note that this does not impact apps built with Xcode < 7 running on iOS 9.
 
 #### Platforms
-
 Applies to iOS (9+) only.
