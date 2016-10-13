@@ -1,10 +1,12 @@
-## App Transport Security Plugin for Apache Cordova [![npm version](https://badge.fury.io/js/cordova-plugin-transport-security.svg)](http://badge.fury.io/js/cordova-plugin-transport-security)
+## FreshGrade Cordova iOS config injections
+*This plugin is used to inject key/value pairs into Info.plist at build time*
+
+
+### App Transport Security Plugin for Apache Cordova [![npm version](https://badge.fury.io/js/cordova-plugin-transport-security.svg)](http://badge.fury.io/js/cordova-plugin-transport-security)
 
 **Cordova / PhoneGap Plugin to allow 'Arbitrary Loads' by adding a declaration to the Info.plist file to bypass the iOS 9 App Transport Security**
 
-```
-
-## Apple guidance
+#### Apple guidance
 
 > App Transport Security (ATS) enforces best practices in the secure connections between an app and its back end. ATS prevents accidental disclosure, provides secure default behavior, and is easy to adopt; it is also on by default in iOS 9 and OS X v10.11. You should adopt ATS as soon as possible, regardless of whether you’re creating a new app or updating an existing one.
 
@@ -14,6 +16,5 @@ Source: [iOS Developer Library](https://developer.apple.com/library/prerelease/i
 
 It's important to note that this does not impact apps built with Xcode < 7 running on iOS 9.
 
-## Platforms
-
+#### Platforms
 Applies to iOS (9+) only.
